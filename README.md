@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+   int array[6] = {9, 5, 8, 24, 2, 97};
+   int arrayCoppy[6];
+   int i,k;
+   
+   k = 5;
+   
+   for(i = 0; i < 6; i++) {
+      arrayCoppy[k] = array[i];
+      k--;
+   }
+   printf("Mang sao chep dao nguoc la: \n");
+   for(i = 0; i < 6; i++) {
+      printf(" %d ", arrayCoppy[i]);
+   } 
+   return 0;
+}
