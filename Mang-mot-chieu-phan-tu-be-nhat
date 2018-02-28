@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+   int array[6] = {9, 5, 8, 24, 2, 97};
+   int i, minItem;
+
+   minItem = array[0]; 
+   for(i = 1; i < 6; i++) {
+      if( minItem > array[i] ) 
+         minItem = array[i];
+   }
+   printf("Phan tu be nhat cua mang la: %d", minItem);   
+   return 0;
+}
