@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+   int array[6] = {9, 5, 8, 24, 2, 97};
+   int head[3], tail[3];
+   int i,j,k;
+   for(i = 0; i < 3; i++) {
+         head[j] = array[i];
+         j++;
+      }
+   for(i = 3; i < 6; i++) {
+         head[k] = array[i];
+         k++;
+      }
+   }
+   printf("Chia mang da cho thanh hai mang:\n");
+   for(i = 0; i < 3; i++) {
+      printf(" %d ", head[i]);   
+}
+  for(i = 3; i < 6; i++) {
+      printf(" %d ", tail[i]);
+}
+   return 0;
+}
