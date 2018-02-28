@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+   int array[6] = {9, 5, 8, 24, 2, 97};
+   int i, secondMaxItem, bienTrungGian;
+
+   for (i = 0; i < n; i++)
+            {
+                for (j = i + 1; j < n; j++)
+                {
+                    if (arr[j] > arr[i])
+                    {
+                        bienTrungGian = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = bienTrungGian;
+                    }
+                }
+            }
+   printf("Sau khi sap xep mang lai theo chieu giam dan \n Phan tu lon thu 2 cua mang la: %d", arr[2]);   
+   return 0;
+}
