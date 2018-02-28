@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+   int array[6] = {9, 5, 8, 24, 2, 97};
+   int i, j, k;
+   int n=6;
+   double sum=0;
+
+   printf("In tat ca phan tu cua mang: \n");
+   for(i = 0; i < 6; i++)
+      printf("%d ", array[i]);
+   return 0;
+   
+   printf("In tat ca phan tu cua mang theo chieu dao nguoc: \n");
+   for(j = 5; j >= 0; j--)
+      printf("%d ", array[j]);
+   return 0;
+}
+
+  printf("Chuong trinh tinh tong gia tri cac phan tu mang: \n");
+   for(k = 0; k < 6; k++) {
+      sum += array[k];      
+   }
+  printf("Tong gia tri cua mang la: %d", sum);   
+  printf("\n Gia tri trung binh cua mang la: %d", sum/6); 
+  return 0;
