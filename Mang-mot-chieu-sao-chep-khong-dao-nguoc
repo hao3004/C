@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+   int array[6] = {9, 5, 8, 24, 2, 97};
+   int arrayCp[6];
+   int i;
+   
+   for(i = 0; i < 6; i++) {
+      arrayCp[i] = array[i];
+   }
+   printf("Mang sao chep la:\n");
+   
+   for(i = 0; i < 10; i++) {
+      printf(" %d ", arrayCp[i]);
+   }
+   return 0;
+}
